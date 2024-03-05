@@ -14,7 +14,7 @@ Class Car dan Motorcycle memiliki hubungan inheritance (is a) dengan class Vehic
 
 ## Alur Program
 1. Program dimulai dengan menginstansiasi object-object Vehicle (Car dan Motorcycle) dan memasukkannya ke dalam sebuah list bertipe Vehicle.
-2. Instansiasi 2 object ParkingLot dan menjadikan list Vehicle sebagai value
+2. Instansiasi 2 object ParkingLot dan menjadikan list Vehicle sebagai salah satu argument
 3. Output semua data yang ada
 4. Mensimulasikan method addListVehicle() yang ada pada class ParkingLot dengan menambah sebuah object Vehicle baru
 5. Output kembali data yang sudah update
