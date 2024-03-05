@@ -5,6 +5,7 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
 
 ## Desain Program
 ![Class diagram](/desain/LP4DPBO.png)
+
 Terdapat 4 class, yaitu Vehicle, Car, Motorcycle, dan ParkingLot. Dalam desain yang saya buat, saya menyatukan class Garage dan ParkingLot yang ada dalam spesifikasi soal menjadi hanya ParkingLot saja. Tetapi, atribut dari Garage tetap ada pada class ParkingLot. Menurut saya, kedua class tersebut mirip dan memiliki tujuan yang sama, yaitu untuk menyimpan kendaraan.
 
 Salah satu atribut dari ParkingLot, yaitu Jumlah kendaraan saat ini tidak memiliki setter karena valuenya bergantung pada atribut lain, yaitu Daftar kendaraan sehingga value Jumlah kendaraan saat ini didapat dari menghitung Daftar kendaraan.
