@@ -5,6 +5,7 @@
 using namespace std;
 
 class ParkingLot{
+    // atribut
     private:
         string nama;
         int luas;
@@ -12,7 +13,9 @@ class ParkingLot{
         int kapasitas;
         int jmlVehicle;
 
+    // method
     public:
+        // constructor
         ParkingLot(){
             
         }
@@ -25,6 +28,7 @@ class ParkingLot{
             this->jmlVehicle = listVehicle.size();
         }
 
+        // setter dan getter
         void setNama(string nama){
             this->nama = nama;
         }
@@ -39,11 +43,6 @@ class ParkingLot{
 
         int getLuas(){
             return this->luas;
-        }
-
-        void addListVehicle(Vehicle* vehicle){
-            this->listVehicle.push_back(vehicle);
-            this->jmlVehicle++;
         }
 
         void setListVehicle(vector<Vehicle*> listVehicle){
@@ -67,6 +66,13 @@ class ParkingLot{
             return this->jmlVehicle;
         }
 
+        // menambah 1 data kendaraan baru
+        void addListVehicle(Vehicle* vehicle){
+            this->listVehicle.push_back(vehicle);
+            this->jmlVehicle++;
+        }
+
+        // destructor
         ~ParkingLot(){
             
         }

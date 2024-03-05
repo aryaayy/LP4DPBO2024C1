@@ -3,11 +3,14 @@
 #include "Vehicle.cpp"
 
 class Motorcycle : public Vehicle{
+    // atribut
     private:
         string jenis;
         int tangki;
     
+    // method
     public:
+        // constructor
         Motorcycle(){
             
         }
@@ -17,6 +20,7 @@ class Motorcycle : public Vehicle{
             this->tangki = tangki;
         }
 
+        // setter dan getter
         void setJenis(string jenis){
             this->jenis = jenis;
         }
@@ -33,6 +37,7 @@ class Motorcycle : public Vehicle{
             return this->tangki;
         }
 
+        // destructor
         ~Motorcycle(){
             
         }

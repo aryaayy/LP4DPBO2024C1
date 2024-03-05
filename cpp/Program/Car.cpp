@@ -3,11 +3,14 @@
 #include "Vehicle.cpp"
 
 class Car : public Vehicle{
+    // atribut
     private:
         int jmlKursi;
         int jmlPintu;
     
+    // method
     public:
+        // constructor
         Car(){
             
         }
@@ -17,6 +20,7 @@ class Car : public Vehicle{
             this->jmlPintu = jmlPintu;            
         }
 
+        // setter dan getter
         void setJmlKursi(int jmlKursi){
             this->jmlKursi = jmlKursi;
         }
@@ -33,6 +37,7 @@ class Car : public Vehicle{
             return this->jmlPintu;
         }
 
+        // destructor
         ~Car(){
             
         }

@@ -4,6 +4,7 @@
 using namespace std;
 
 class Vehicle{
+    // atribut
     private:
         string plat;
         string merk;
@@ -11,7 +12,9 @@ class Vehicle{
         string warna;
         string pemilik;
     
+    // method
     public:
+        // constructor
         Vehicle(){
           
         }
@@ -24,6 +27,7 @@ class Vehicle{
             this->pemilik = pemilik;
         }
 
+        // setter dan getter
         void setPlat(string plat){
             this->plat = plat;
         }
@@ -64,6 +68,7 @@ class Vehicle{
             return this->pemilik;
         }
 
+        // polymorphism
         virtual int getJmlKursi(){
             return -1;
         }
@@ -80,6 +85,7 @@ class Vehicle{
             return -1;
         }
 
+        // destructor
         ~Vehicle(){
 
         }
